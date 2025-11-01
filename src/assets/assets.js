@@ -1,12 +1,7 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 import Profile from '../assets/Profile.jpg';
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
-import projectImg5 from '../assets/project5.avif';
-import projectImg6 from '../assets/project6.avif';
 import realState from '../assets/realstate2.avif';
 import razorpay from '../assets/razorpay.jpg';
 import todolist from '../assets/todolist.jpg'
