@@ -93,8 +93,8 @@ export const projects = [
     image: projectImg4,
     tech: ["React", "Vite", "Tailwind CSS", "Framer Motion","React Icons"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://personal-portfolio-dun-two-78.vercel.app/",
+    code: "https://github.com/Danishmanyotra/Personal-Portfolio",
   },
   {
     title: "Razorpay Clone",
