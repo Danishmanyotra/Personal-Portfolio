@@ -16,6 +16,7 @@ const ProjectCard = ({title,description,image,tech,demo,code}) => {
                 </span>
             ))}
         </div>
+        
         <div className='flex gap-2'>
          <a href={demo}
           target="_blank" 

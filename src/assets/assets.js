@@ -96,9 +96,9 @@ export const projects = [
     title:"RealTime Chat Application",
     description:"A real-time messaging app built with a clean UI, secure authentication, and features for seamless user communication.",
     image:ChatApplication,
-    tect:["React", "Node.js", "Express", "MongoDB","Socket.io"],
+    tech:["React", "Node.js", "Express", "MongoDB","Socket.io"],
     icons:[FaReact, FaNodeJs, FaDatabase],
-    demo:"https://chatterly-flame.vercel.app/login",
+    demo:"",
     code:"https://github.com/Danishmanyotra/Chatterly"
   },
   {
