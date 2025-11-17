@@ -4,7 +4,8 @@ import Profile from '../assets/Profile.jpg';
 import projectImg4 from '../assets/project4.avif';
 import realState from '../assets/realstate2.avif';
 import razorpay from '../assets/razorpay.jpg';
-import todolist from '../assets/todolist.jpg'
+import todolist from '../assets/todolist.jpg';
+import ChatApplication from '../assets/ChatApplication.png'
 
 
 export const assets = {
@@ -90,6 +91,15 @@ export const projects = [
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "https://personal-portfolio-dun-two-78.vercel.app/",
     code: "https://github.com/Danishmanyotra/Personal-Portfolio",
+  },
+  {
+    title:"RealTime Chat Application",
+    description:"A real-time messaging app built with a clean UI, secure authentication, and features for seamless user communication.",
+    image:ChatApplication,
+    tect:["React", "Node.js", "Express", "MongoDB","Socket.io"],
+    icons:[FaReact, FaNodeJs, FaDatabase],
+    demo:"https://chatterly-flame.vercel.app/login",
+    code:"https://github.com/Danishmanyotra/Chatterly"
   },
   {
     title: "Razorpay Clone",
