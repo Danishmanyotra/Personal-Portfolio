@@ -6,7 +6,7 @@ import realState from '../assets/realstate2.avif';
 import razorpay from '../assets/razorpay.jpg';
 import todolist from '../assets/todolist.jpg';
 import ChatApplication from '../assets/ChatApplication.png'
-
+import TomatoApp from '../assets/TomatoApp.png'
 
 export const assets = {
   Profile,
@@ -75,6 +75,16 @@ export const skills = [
 
 export const projects = [
   {
+   title:"Online Food Ordering",
+   description:"A full-stack food ordering app offering quick browsing, easy cart management, and hassle-free simulated checkout.",
+   image:TomatoApp,
+   tech:["React","Vite","Node.js","Express","MongoDB"],
+   icons:[FaDatabase,FaReact,FaNodeJs,FaCloud],
+   demo:"https://tomato-frontend-zcwv.onrender.com/",
+   code:"https://github.com/Danishmanyotra/Tomato"
+
+  },
+  {
     title: "Real Estate Website",
     description: "A responsive real estate site built with React and Vite for smooth and fast property browsing.",
     image: realState,
@@ -82,15 +92,6 @@ export const projects = [
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "https://nivas-infra.vercel.app/",
     code: "https://github.com/Danishmanyotra/Nivas_Infra",
-  },
-  {
-    title: "Personal Portfolio Website",
-    description: "A sleek and responsive portfolio showcasing my projects, skills, and experience with smooth UI.",
-    image: projectImg4,
-    tech: ["React", "Vite", "Tailwind CSS", "Framer Motion","React Icons"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "https://personal-portfolio-dun-two-78.vercel.app/",
-    code: "https://github.com/Danishmanyotra/Personal-Portfolio",
   },
   {
     title:"RealTime Chat Application",
@@ -101,6 +102,16 @@ export const projects = [
     demo:"",
     code:"https://github.com/Danishmanyotra/Chatterly"
   },
+  {
+    title: "Personal Portfolio Website",
+    description: "A sleek and responsive portfolio showcasing my projects, skills, and experience with smooth UI.",
+    image: projectImg4,
+    tech: ["React", "Vite", "Tailwind CSS", "Framer Motion","React Icons"],
+    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+    demo: "https://personal-portfolio-dun-two-78.vercel.app/",
+    code: "https://github.com/Danishmanyotra/Personal-Portfolio",
+  },
+  
   {
     title: "Razorpay Clone",
     description: "A frontend-only clone of Razorpay's modern payments interface with a clean UI and responsive design.",
